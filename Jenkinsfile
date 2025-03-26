@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Run the executable
-                sh './output'
+                sh './outpt'
             }
         }
         stage('Deploy') {
